@@ -12,6 +12,7 @@ def hello():
     TableName='Candidates',
     Key={'CandidateName ':{'S':'atin'}}
     )
+    print(response)
     return "Hello World"
 if __name__ == "__main__":
     app.run()
